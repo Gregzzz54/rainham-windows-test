@@ -4,7 +4,20 @@ A standalone, responsive static prototype for reviewing a refreshed Rainham Wind
 
 ## Preview
 
-Open `index.html` in a browser. The photos and font are loaded from external CDNs, so an internet connection is needed for those assets.
+Open `index.html` in a browser. Project photographs are hosted locally; the font loads from Google Fonts with a system-font fallback.
+
+## Images and search content
+
+The user confirmed ownership of, or permission to reuse, the original website photographs before publication.
+
+- `images/anthracite-grey-upvc-windows.jpg`: [original project photograph](https://cdn.website-editor.net/e467c9242eb74bc19de6b4874f8d3bab/dms3rep/multi/background/IMG_6615.JPG), cropped to remove the black border.
+- `images/rosewood-upvc-windows.jpg`: [original project photograph](https://le-cdn.website-editor.net/e467c9242eb74bc19de6b4874f8d3bab/dms3rep/multi/opt/18AC51D8-A463-49EB-8919-96203DA1735F-960w.jpg).
+
+Search themes are double glazing London, replacement uPVC windows, replacement doors, bi-fold doors, conservatories London, glazed porches, and free double-glazing quotations. These are relevant content themes, not verified search-volume or ranking claims.
+
+SEO and generative-engine optimisation (GEO) use descriptive titles, visible service copy, factual business details, project-image descriptions and concise questions and answers. FAQ structured data matches visible answers; it does not guarantee search rich results or AI citations. No hidden keyword stuffing or unsupported locality pages are included.
+
+The preview remains `noindex`: this is a foundation for an approved production launch, not a claim that the test website will rank.
 
 ## GitHub Pages
 
