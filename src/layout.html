@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f5f3ed">
+  <title>%%TITLE%%</title>
+  <meta name="description" content="%%DESCRIPTION%%">
+  <link rel="canonical" href="%%CANONICAL%%">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="%%TITLE%%">
+  <meta property="og:description" content="%%DESCRIPTION%%">
+  <meta property="og:url" content="%%CANONICAL%%">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:image" content="%%BASE%%assets/anthracite-grey-upvc-windows.webp">
+  <meta property="og:image:alt" content="Anthracite-grey uPVC windows and glazed porch from the original Rainham Windows portfolio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="%%TITLE%%">
+  <meta name="twitter:description" content="%%DESCRIPTION%%">
+  <meta name="twitter:image" content="%%BASE%%assets/anthracite-grey-upvc-windows.webp">
+  <link rel="stylesheet" href="%%ROOT%%assets/site.css">
+  <link rel="icon" type="image/svg+xml" href="%%ROOT%%assets/logo.svg">
+  <script type="application/ld+json">%%SCHEMA%%</script>
+  <script src="%%ROOT%%assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="preview-bar"><strong>Design preview</strong> · Business details and proposed local coverage need confirmation. Not the official website.</div>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="%%ROOT%%"><span class="brand-mark" aria-hidden="true">RW</span><span>Rainham Windows<small>WINDOWS · DOORS · HOME</small></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Main navigation">%%NAV%%</nav>
+    </div>
+  </header>
+  <main id="main">
+    %%CONTENT%%
+    <section id="quote" class="quote-section">
+      <div class="wrap quote-grid">
+        <div>
+          <span class="eyebrow">Your next step</span>
+          <h2>Tell us about <em>your home.</em></h2>
+          <p>Prepare a free-quotation enquiry for Rainham Windows. This preview form does not send or store your details; it creates a message for you to review.</p>
+          <p class="phone-cta"><strong>Call:</strong> <span>%%PHONE%%</span></p>
+          <p><strong>Email:</strong> <span>%%EMAIL%%</span></p>
+          <p class="small">A verified phone number, email address and secure enquiry service must be connected before launch.</p>
+        </div>
+        <form id="quote-form">
+          <div class="form-row">
+            <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" maxlength="120" required></div>
+            <div><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" required></div>
+          </div>
+          <div class="form-row">
+            <div><label for="postcode">Property postcode</label><input id="postcode" name="postcode" autocomplete="postal-code" maxlength="12" required></div>
+            <div><label for="product">Your project</label><select id="product" name="product"><option>Replacement windows</option><option>Doors or bi-fold doors</option><option>Conservatory</option><option>Porch</option><option>Another enquiry</option></select></div>
+          </div>
+          <label for="details">What would you like to change?</label>
+          <textarea id="details" name="details" rows="3" maxlength="3000" required></textarea>
+          <button class="button" type="submit">Prepare my enquiry <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Preview only. Nothing will be submitted to the business.</p>
+          <div id="enquiry-result" hidden>
+            <p id="enquiry-status" role="status"></p>
+            <label for="enquiry-message">Your prepared message</label>
+            <textarea id="enquiry-message" rows="7" readonly></textarea>
+            <button class="button outline" id="select-message" type="button">Select message to copy</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap footer-grid">
+      <div><a class="brand" href="%%ROOT%%"><span class="brand-mark" aria-hidden="true">RW</span><span>Rainham Windows<small>WINDOWS · DOORS · HOME</small></span></a><p>Windows, doors and home improvements.<br>A thoughtful new website, ready for factual review.</p></div>
+      <div><h2>Explore</h2><a href="%%ROOT%%gallery/">Project gallery</a><a href="%%ROOT%%guides/">Buying guides</a><a href="%%ROOT%%reviews/">Reviews &amp; credentials</a><a href="%%ROOT%%contact/">Contact details</a><a href="%%ROOT%%legal-notice/">Legal notice &amp; privacy</a></div>
+      <div class="nap"><h2>Business details</h2><p><strong>%%NAME%%</strong><br>%%ADDRESS%%</p><p>Phone: %%PHONE%%<br>Email: %%EMAIL%%</p><p>Opening hours: {{CONFIRM: opening hours}}</p></div>
+    </div>
+    <div class="wrap footer-bottom"><p>Rainham Windows · Public design preview</p><a href="https://www.rainhamwindows.co.uk/">Visit the original website ↗</a></div>
+  </footer>
+</body>
+</html>
